@@ -1,19 +1,121 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
-}
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style-type: none;
+    box-sizing: border-box;
 
+}
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
 
-.fa-solid {
-    color: var(--main-color);
+
+/* Cette partie accueillera les nouvelles modifications css de l'header*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: #0065FC 3px solid;
+    height: 500px;
 }
 
-body {
+.logo{
+    padding: 15px;
+    width: 150px;
+    border: 3px solid purple;
+}
+#menu-nav{
+    display: flex;
+    width: 400px;
+    align-items:start;
+    justify-content: space-around;
+    border: 3px solid maroon ;
+}
+#menu-nav a:hover{
+    border-top: #0065FC solid 3px;
+}
+#menu-nav a {
+    padding: 25px;
+    color: black;
+    border: 3px solid red;
+}
+
+#recherche{
+    border: 3px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+form a {
+    border: #0065FC 2px solid;
+    padding: 10px;
+}
+
+input::placeholder {
+    font-size: small;
+    font-weight:bolder;
+    color: black;
+    opacity: 1;
+}
+input{
+    padding: 10px;
+    border:#DEEBFF 1px solid;
+
+}
+#button{
+    padding: 10px;
+    border-radius: 0px 20px 20px 0;
+    border: none;
+    background-color: #0065FC;
+    color: #F2F2F2;
+    font-weight: bold;
+}
+#filtres{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+    border:orange 3px solid;
+    width: 700px;
+}
+h3{
+    padding: 20px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    border: purple 2px solid;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: #DEEBFF 2px solid;
+    border-radius: 30px;
+    font-weight: bold;
+}
+#filtres i{
+    padding: 0px 10px;
+
+}
+.info-recherche{
+    display: flex;
+    align-items: center;
+    border: red 2px solid;
+}
+
+
+
+/*fin des modifications*/
+
+
+body{
     display: flex;
     justify-content: center;
 }
@@ -21,8 +123,11 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
+    padding: 0 50Px;
     box-sizing: border-box;
+}
+.fa-solid {
+    color: var(--main-color);
 }
 
 .section-title {
