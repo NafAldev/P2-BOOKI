@@ -26,15 +26,12 @@ header{
     display: flex;
     justify-content: space-between;
     width:100%;
-    border: red 3px solid;
 }
 .logo{
-    border: 3px black solid;
     width: 100px;
     padding: 30px 0px;
 }
 .menu-nav{
-    border: salmon 3px solid;
     display: flex;
     width: 400px;
     align-items:start;
@@ -49,14 +46,12 @@ header{
 }
 .menu-nav a{
     padding: 30px;
-    border: purple 3px solid;
 }
 .block-research{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 250px;
-    border: purple 3px dotted;
 }
 h1{
     font-size: x-large;
@@ -67,43 +62,46 @@ h1{
 }
 .block-search{
     padding: 20px;
-    border: #0065FC 2px solid;
 }
 form a {
-    border: #0065FC 2px solid;
-    padding:10px;
+    padding: 15px;
 }
 
 input::placeholder {
-    font-size: small;
+    font-size: medium;
     font-weight:bolder;
     color: black;
     opacity: 1;
 }
-.ville{
-    padding: 10px;
-    border:#DEEBFF 1px solid;
+.input-research{
+    padding: 15px;
+    border-top: #f2f2f2 1px solid;
+    border-bottom: #f2f2f2 1px solid;
+    border-left:none;
+    border-right:none;
     margin-left: -4px;
 
 }
-.bouton{
-    padding: 10px;
-    border-radius: 0px 20px 20px 0;
+.button-search{
+    padding: 15px;
+    border-radius: 0px 12px 12px 0;
     border: none;
     background-color: #0065FC;
     color: #F2F2F2;
     font-weight: bold;   
     margin-left: -4px;
+    
+}
+.button-mobile{
+    display: none;
 }
 
 .block-filtres{
     display: flex;
-    flex-direction: column;
-    border:orange 3px solid;   
+    flex-direction: column; 
     width: 800px;
 }
 .filtres{
-    border: palevioletred 2px solid;
     display: flex;
     align-items: center;
 }
@@ -111,7 +109,6 @@ input::placeholder {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
 }
 h3{
     padding: 20px;
@@ -119,7 +116,6 @@ h3{
 ul{
     display: flex;
     flex-wrap: wrap;
-    border: purple 2px solid;
 }
 li{
     display: flex;
@@ -144,8 +140,13 @@ p i{
     border: 1px solid green;    
 }
 
-/*fin des modifications*/
+/*fin des modifications HEADER*/
 
+/* MODIFICATION MAIN */
+
+
+
+/* FIN MODIFCATION MAIN */
 
 body{
     display: flex;
@@ -194,6 +195,7 @@ body{
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    border: 2px solid red;
 }
 
 .hebergements-and-populaires section {
@@ -206,6 +208,7 @@ body{
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    border: 2px solid purple;
 }
 
 /****** Populaires ***********/
