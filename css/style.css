@@ -113,11 +113,7 @@ input::placeholder {
 h3{
     padding: 20px;
 }
-ul{
-    display: flex;
-    flex-wrap: wrap;
-}
-li{
+.filtres li{
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -143,7 +139,6 @@ p i{
 /*fin des modifications HEADER*/
 
 /* MODIFICATION MAIN */
-
 
 
 /* FIN MODIFCATION MAIN */
@@ -305,6 +300,8 @@ body{
     
 }
 */
+
+/* section activité*/
 .Activites{
     border: #0065FC solid 2px;
     height: 570px;
@@ -341,6 +338,7 @@ body{
     font-weight: 700;
     font-size: 16px;
 }
+/* footer*/
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
