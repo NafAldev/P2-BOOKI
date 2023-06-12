@@ -16,3 +16,7 @@ Modifications a apporter :
     impression que la police ne fonctionne pas... ? a vérifier
 
     j'ai enlevé le display flex du titre de la section herbergement qui ne sert à rien ?? (je sais pas pk je l'ai ajouté  ) 
+
+    VERSION DESKTOP : 
+
+    rencontre un problème de chevauchement lors de la reduction de la page ? modfifier les dimensions en % pour du px
