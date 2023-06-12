@@ -185,6 +185,8 @@ body{
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    height: 611px;
+    width: 100%;
 }
 
 .hebergements-and-populaires section {
@@ -192,9 +194,14 @@ body{
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
+    border: red 1px solid;
 }
 .hebergements-and-populaires section a{
     color: black;
+}
+.neutral-star{
+
+    color: #F2F2F2;
 }
 
 
@@ -204,9 +211,8 @@ body{
 }
 
 .hebergements-title {
-    display: flex;
-    align-items: center;
-   
+    font-size: 16px;
+    border: purple 1px solid;
 }
 
 .hebergements-cards {
@@ -214,15 +220,12 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     border: #0065FC 1px solid;
-    
-
+    padding: 30px 0px;
+    gap: 30px;
 }
 .hebergements-cards .card {
     border:black 2px solid;
     width: 30%;
-    margin-top: 25px;
-    
-
 }
 .hebergements-cards img {
     height: 124px;
@@ -240,8 +243,10 @@ body{
 
 .hebergements-cards .card-title {
     border: magenta 1px solid;
-    font-size: small;
-
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0;
+    
 }
 
 .hebergements-cards .card-subtitle {
@@ -284,7 +289,10 @@ h5{
     border-bottom-left-radius: 20px;
     border: black 1px solid;
 }
-
+.populaires-cards .card-title{
+    padding: 0;
+    border: purple 1px solid;
+}
 .populaires-cards .card-content {
     width: 67%;
     padding-left: 15px;
@@ -355,7 +363,7 @@ h5{
     align-items: flex-start;
     justify-content: space-between;
     height: 163px;
-    width: 1340px;
+    width: 100%;
     border:purple 2px solid;
     background-color:#F2F2F2;
 }

@@ -8,9 +8,11 @@ Modifications a apporter :
 
 
     section hebergements:
-    - ajouter les <a> sur chaque card 
+    - ajouter les <a> sur chaque card (fait)
     - réajuster la partie card-content de chaque card
     - les étoiles
-    -"le aficher plus" 
+    -"le aficher plus" ( fait ) 
 
     impression que la police ne fonctionne pas... ? a vérifier
+
+    j'ai enlevé le display flex du titre de la section herbergement qui ne sert à rien ?? (je sais pas pk je l'ai ajouté  ) 
