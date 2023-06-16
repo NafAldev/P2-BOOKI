@@ -19,4 +19,7 @@ Modifications a apporter :
 
     VERSION DESKTOP : 
 
-    rencontre un problème de chevauchement lors de la reduction de la page ? modfifier les dimensions en % pour du px
+    rencontre un problème de chevauchement lors de la reduction de la page ? modfifier les dimensions en % pour du px FAIT 
+
+    Rencontre un problème sur la taille des images de la section activité.
+
