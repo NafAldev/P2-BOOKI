@@ -32,8 +32,8 @@ Modifications a apporter :
 
     remarque au 26/06 matin :
 
-    le seul problème restant avec le header : le dernier filtre sur la version responsive mobile prends toute la largeur 
-    
+    le seul problème restant avec le header : le dernier filtre sur la version responsive mobile prends toute la largeur  (fait)
+
     
     
 

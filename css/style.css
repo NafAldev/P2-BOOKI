@@ -32,7 +32,7 @@ body{
     color: var(--main-color);
 }
 
-/*********** Card Géneral setting *************/
+/*********** Card General setting *************/
 
 .card {
     background-color:white;
@@ -94,13 +94,18 @@ header{
 }
 
 h1{
-    font-size: x-large;
+    font-size:22px;
+    font-weight: 700;
     padding: 20px 0 0 0;
+}
+p{
+    font-size: 16px;
 }
 
 .fa-location-dot{
     background-color: #f2f2f2;
-    border-radius: 10px 0 0 10px;
+    border-radius: 15px 0 0 15px;
+    border: black 1px solid;
     width: 50px;
     height: 49px;
     display: flex;
@@ -110,14 +115,12 @@ h1{
 .block-search{
     margin: 35px 0;
     display: flex;
-    align-items: center;
 }
 
 input::placeholder {
-    font-size: medium;
-    font-weight:bolder;
+    font-size: 18px;
+    font-weight:700;
     color: black;
-    opacity: 1;
 }
 .input-research{
     border-top: #f2f2f2 1px solid;
@@ -126,16 +129,19 @@ input::placeholder {
     border-right:none;
     margin-left: -4px;
     height: 49px; 
+    text-align: center;
 }
 #button-search{
     padding: 15px;
     height: 49px;
-    border-radius: 0px 12px 12px 0;
+    border-radius: 0px 15px 15px 0;
     border: none;
     background-color: #0065FC;
     color: #F2F2F2;
-    font-weight: bold;   
+    font-weight:700;   
     margin-left: -4px;
+    cursor: pointer;
+
 }
 
 .fa-magnifying-glass{
@@ -169,6 +175,8 @@ h3{
     font-weight: bold;
     height: 50px;
     padding: 4px 19px;
+    cursor: pointer;
+
 }
 .filtres li:hover{
     background-color: #DEEBFF;
@@ -191,9 +199,6 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-
 }
 
 /*Fin du HEADER*/
@@ -503,12 +508,17 @@ h5{
 
     }
     .filtres ul{
+        border: red 1px solid;
         display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
+        
     }
    .filtres li{
-    flex-basis: 35%;
-    text-align: center;
+        border: black 1px solid;
+        display: flex;
+        justify-content: center;
+        flex: 1 1 35%;
    }
    
     
