@@ -95,7 +95,7 @@ header{
 
 h1{
     font-size: x-large;
-    padding-top: 20px 0px;
+    padding: 20px 0 0 0;
 }
 
 .fa-location-dot{
@@ -418,8 +418,7 @@ h5{
         flex-direction:column;
         margin-top: 30px;
     }
-    .Activites img{
-        width: 0 auto;
+    .Activites img{  
         height: 200px;
         border-radius: 20px 20px 0px 0px;
     }
