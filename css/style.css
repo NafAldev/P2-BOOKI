@@ -6,8 +6,8 @@
     text-decoration:none;
     list-style-type: none;
     box-sizing: border-box;
-
 }
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
@@ -17,7 +17,7 @@
 body{
     display: flex;
     justify-content: center;
-    border: red 1px solid;
+    
 }
 
 .main-container {
@@ -25,21 +25,20 @@ body{
     max-width: 1440px;
     padding: 0 50Px;
     box-sizing: border-box;
-    border: #0065FC 1px solid;
+    border: black 1px solid;
 }
 
 .fa-fire, .fa-heart, .fa-money-bill-wave, .fa-person, .fa-info, .fa-star, .fa-chart-line {
     color: var(--main-color);
 }
 
-/*********** Card setting in common *************/
+/*********** Card Géneral setting *************/
 
 .card {
     background-color:white;
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
- 
 }
 
 .card img {
@@ -48,8 +47,7 @@ body{
 
 .card-title{
     font-size: 16px;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 
 /************* Header *************************/
@@ -57,15 +55,12 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: green 1PX solid;
-
 }
 
 .block-logo-nav{
     display: flex;
     justify-content: space-between;
     flex-basis: 100%;
-
 }
 
 .logo{
@@ -82,14 +77,13 @@ header{
     color: black;
     font-weight:500;
     padding: 30px;
-    border-top: 3px transparent solid;
-    border-bottom: 3px transparent solid;
+    border-top: 2px transparent solid;
+    border-bottom: 2px transparent solid;
 }
 
 .menu-nav a:hover{
-    border-top: #0065FC 3px solid;
-    color: #0065FC;
-    
+    border-top: #0065FC 2px solid;
+    color: #0065FC;  
 }
 
 .block-research{
@@ -112,7 +106,6 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: black 1px solid;
 }
 .block-search{
     margin: 35px 0;
@@ -132,7 +125,7 @@ input::placeholder {
     border-left:none;
     border-right:none;
     margin-left: -4px;
-    height: 49px;
+    height: 49px; 
 }
 #button-search{
     padding: 15px;
@@ -143,55 +136,48 @@ input::placeholder {
     color: #F2F2F2;
     font-weight: bold;   
     margin-left: -4px;
-    
 }
 
 .fa-magnifying-glass{
-    display: none;
+    color:#0065FC;
 }
 
 .block-filtres{
     display: flex;
     flex-direction: column; 
     gap: 15px;
-    border: purple 2px solid;
-
 }
 .filtres{
     display: flex;
-    align-items: center;
-    border: green 1px solid;
+    align-items: center; 
     gap: 15px;
-
 }
 h3{
-    border: black 1px solid;
     font-size: 18px;
-
-  
+   
 }
 .filtres ul{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    gap: 15px;
 }
 .filtres li{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    align-items: center;
     border: #DEEBFF 2px solid;
-    border-radius: 30px;
+    border-radius: 25px;
     font-weight: bold;
-    margin: 5px;
+    height: 50px;
+    padding: 4px 19px;
 }
 .filtres li:hover{
     background-color: #DEEBFF;
 }
 .block-filtres i{
     padding: 0px 10px;
+   
 }
 #info-bar{
-    border: #0065FC 1px solid;
     display: flex;
     align-items: center;
     margin: 15px 0;
@@ -241,6 +227,7 @@ h3{
 }
 .neutral-star{
     color: #F2F2F2;
+
 }
 
 /****** Hebergements ***********/
@@ -322,10 +309,6 @@ h5{
 
 
 /******* activité********/
-.Activites{
-
-    
-}
 .activites-title{
     align-items: center;
     padding: 30px;
@@ -390,7 +373,15 @@ h5{
         justify-content: center;
     }
     .filtres{
-        flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;  
+    }
+
+    .filtres li{    
+        flex-wrap: nowrap;
     }
 
     .hebergements {
@@ -441,17 +432,12 @@ h5{
         width: 100%;
         padding: 0;
         }
-    Header{
-        border: green 1px solid;
-        
-    }
 
     .block-logo-nav{
         display: flex;
         flex-direction: column;
     }
     .logo{
-        border: green 1px solid;
         display: block;
         margin: 0 auto;
         padding-top: 10px;
@@ -462,63 +448,70 @@ h5{
         justify-content: center;
         width: 100%;
         padding: 15px;
-        border-bottom:#F2F2F2 3px solid;
+        border-bottom:#F2F2F2 2px solid;
+        
     }
 
     .menu-nav a:hover{
-        border-bottom:#0065FC 3px solid ;
+        border-bottom:#0065FC 2px solid ;
         color: #0065FC;
-        border-top: none;
+        border-top: 2px transparent solid;
     }
 
     h1 {
         padding: 10px 10px 0 10px;
+        font-size: 18px;
+    
     }
     p{
         padding: 5px 0 0 10px;
         font-size: 16px;
         font-weight: 500;
     }
-
+    .block-research{
+        padding: 20px;
+    }
     .block-search{
+        min-width: 320px;
+        max-width: 768px;
         display: flex;
-        border: #0065FC 1px solid;
-        justify-content: center;
-        align-items: center;
+        justify-content: start;
+        align-self: stretch;
        
     }
     #button-text{
         display: none;
     }
     #button-search{
-        height: 49px;
+       
         width: 49px;
+        height: 49px;
+        display: inline-block;
+        vertical-align: middle;
         border-radius: 15px;
-        border:yellow 1PX solid;
-        
-
+        margin-left: -20px;
     }
     .fa-magnifying-glass{
         color: white;
     }
-    .input-research{
-        border: black 1px solid;
-        height: 49px;
-        margin-bottom: 4px;
-        
-    }
     .filtres{
         display: flex;
-        border:green 1px solid;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 20px;  
+        border: #0065FC 1px solid;
+
     }
     .filtres ul{
         display: flex;
         flex-wrap: wrap;
+    }
+   .filtres li{
+    flex-basis: 35%;
+    text-align: center;
+   }
+   
+    
 
-        
-    }
-    .filtres li{
-        flex-basis: 35%;
-        text-align: center;
-    }
 }
