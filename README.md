@@ -34,7 +34,7 @@ Modifications a apporter :
 
     le seul problème restant avec le header : le dernier filtre sur la version responsive mobile prends toute la largeur  (fait)
 
+    06/072023
     
-    
-    
+    dernier point à verifier le style des filtre sur la version mobile( peut mieux faire)
 
