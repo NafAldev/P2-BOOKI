@@ -1,4 +1,4 @@
-/****** General ***********/
+/****** Mise en page générale ***********/
 * {
     font-family: 'Raleway', sans-serif;
     margin:0;
@@ -55,23 +55,22 @@ header{
     justify-content: space-between;
 }
 
-.block-logo-nav{
+#BlocLogoNav{
     display: flex;
     justify-content: space-between;
     flex-basis: 100%;
 }
 
-.logo{
+#logo{
     height: 40px;
     margin-top: 15px;
 }
 
-.menu-nav{
+.MenuNav{
     display: flex;
     justify-content: space-around;
 }
-
-.menu-nav a{
+.Menu{
     color: black;
     font-weight:500;
     padding: 30px;
@@ -79,12 +78,12 @@ header{
     border-bottom: 2px transparent solid;
 }
 
-.menu-nav a:hover{
+.Menu:hover{
     border-top: #0065FC 2px solid;
     color: #0065FC;  
 }
 
-.block-research{
+#BlocResearch{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -198,10 +197,8 @@ h3{
     align-items: center;
 }
 
-/*Fin du HEADER*/
 
-
-/****** Hebergements And Populaires ***********/
+/****** /* Mise en page générale section Hebergements And Populaires  ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -320,7 +317,7 @@ h4{
 }
 .activites-title{
     align-items: center;
-    padding: 30px;
+    padding: 20px 10px;
     font-size: small;
     
 }
@@ -442,16 +439,16 @@ h4{
         padding: 0;
         }
 
-    .block-logo-nav{
+    #BlocLogoNav{
         display: flex;
         flex-direction: column;
     }
-    .logo{
+    #logo{
         display: block;
         margin: 0 auto;
         padding-top: 10px;
     }
-    .menu-nav a{
+    .Menu{
         display: flex;
         justify-content: center;
         width: 100%;
@@ -460,7 +457,7 @@ h4{
         
     }
 
-    .menu-nav a:hover{
+    .Menu:hover{
         border-bottom:#0065FC 2px solid ;
         color: #0065FC;
         border-top: 2px transparent solid;
@@ -476,7 +473,7 @@ h4{
         font-size: 16px;
         font-weight: 500;
     }
-    .block-research{
+    #BlocResearch{
         padding: 20px;
     }
     .block-search{
