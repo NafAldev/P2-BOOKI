@@ -450,7 +450,6 @@ h4{
         display: block;
         margin: 0 auto;
         padding-top: 10px;
-
     }
     .menu-nav a{
         display: flex;
@@ -508,20 +507,21 @@ h4{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        justify-content: center;
         gap: 20px;  
     }
     .filtres ul{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        
+        width: 100%;
     }
    .filtres li{
         display: flex;
         justify-content: center;
-        flex: 1 1 35%;
+        flex: 1 1 33%;
+        padding: unset;
    }
+
    .hebergements-and-populaires {
         display: flex;
         flex-direction: column;
@@ -589,6 +589,4 @@ h4{
         padding: 30px;
         align-self: stretch;
    }
-    
-
 }
