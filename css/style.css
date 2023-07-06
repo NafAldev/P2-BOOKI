@@ -352,7 +352,6 @@ h4{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    height: 163px;
     width: 100%;
     background-color:#F2F2F2;
     margin-top: 35px;
@@ -426,7 +425,7 @@ h4{
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-    .Activites{
+    #Activites{
         display: flex;
         flex-direction:column;
         margin-top: 30px;
@@ -529,14 +528,28 @@ h4{
         justify-content: center;
         flex: 1 1 35%;
    }
+   .hebergements-and-populaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
    .Activites-cards{
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 30px;
-    align-self: stretch;
 
    }
+   .Activites-cards .card{
+    border: #0065FC solid 1px;
+    display: inline-block;
+    width: 100%;
+    }
+    .Activites-cards img{  
+        height: 140px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
    .Footer{
     display: flex;
     flex-direction: column;
