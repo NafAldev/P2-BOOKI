@@ -13,17 +13,19 @@
 </head>
 
 <body>
-    <div class="main-container">
+    <div class="MainContainer">
         <header>
-            <div id="BlocLogoNav">
-                <a href="index.html" >
-                    <img id="logo" src="images/logo/Booki.png" alt="logo BOOKI">
-                </a>
-                <nav class="MenuNav"> 
+            <div id="DivLogoNav">
+                <div id="DivLogo">
+                    <a href="index.html" >
+                        <img id="Logo"src="images/logo/Booki.png" alt="logo BOOKI">
+                    </a>
+                </div>
+                <nav id="MenuNav"> 
                     <a class="Menu" href="#hebergements">Hébergements</a>
                     <a class="Menu" href="#activites">Activités</a>
                 </nav> 
-            </div>    
+            </div>
             <div id="BlocResearch">
                 <div class="block-intro-search">
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -31,15 +33,15 @@
                 </div>
                 <div class="block-search">
                     <i class="fa-solid fa-location-dot"></i>
-                    <form method="post" action="#">
-                        <input type="search" class="input-research" name="ville" placeholder="Marseille, France" size="30">
+                    <form class="FormSearch" method="post" action="#">
+                        <input type="search" class="InputSearch" name="ville" placeholder="Marseille, France" size="30">
                         <button type="submit" id="button-search">
                             <span id="button-text">Rechercher</span>
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </button>
                     </form>
                 </div>
-                <div class="block-filtres" >
+            <div class="block-filtres" >
                     <div class="filtres">
                         <H3>Filtres</H3>
                         <ul>
