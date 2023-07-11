@@ -1,40 +1,26 @@
-# booki-starter-pack
+Client: Booki
 
-Modifications a apporter : 
-    section header:
-    - modifier le cercle de l'icone i fait
-    - vérifier les parametres des filtres, lorsque je réduis la dimensions de la page, les élèments ne se deplace pas vers le bas ( flex-wrap ?) fait
-    -Ne pas oublier de relier les sections activités et hebergements 
+Mission du Projet:
+
+Intégrer la maquette en HTML/CSS
 
 
-    section hebergements:
-    - ajouter les <a> sur chaque card (fait)
-    - réajuster la partie card-content de chaque card
-    - les étoiles fait
-    -"le aficher plus" ( fait ) 
 
-    impression que la police ne fonctionne pas... ? a vérifier fait 
+Particularité à prendre en compte :
 
-    j'ai enlevé le display flex du titre de la section herbergement qui ne sert à rien ?? (je sais pas pk je l'ai ajouté  ) 
+Utilisation de Flexbox 
 
-    VERSION DESKTOP : 
+3 maquettes : desktop, mobile & tablette
 
-    rencontre un problème de chevauchement lors de la reduction de la page ? modfifier les dimensions en % pour du px FAIT 
-
-    Rencontre un problème sur la taille des images de la section activité.
-
-    version phones :
-
-    la section block-search ne prends pas toute la largeur comme sur la maquette ??? pkusieurs essaye dont align-self: stretch ect...
-
-    problème avec les dimensions des filtres 
+Verifier son code dans le validator (Fait le 11/07/23)
 
 
-    remarque au 26/06 matin :
 
-    le seul problème restant avec le header : le dernier filtre sur la version responsive mobile prends toute la largeur  (fait)
+Compétence à evaluer:
 
-    06/072023
-    
-    dernier point à verifier le style des filtre sur la version mobile( peut mieux faire)
+Installer un environnement de développement front-end
+
+Intégrer du contenu conformément à une maquette avec HTML et CSS
+
+Implémenter une interface responsive avec HTML et CSS
 
